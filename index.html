@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>projects</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body>
+        <nav class="nav_bar">
+      <h1 id="myportfolio">MyPortfolio</h1>
+      <div class="nav_bar1"  id="myTopnav">
+      <a href="Home_page.html" class="menu"> Home</a>
+      <a href="Skills.html" class="menu-btn"> Skills</a>
+      <a href="myproject.html" class="menu-btn"> Projects</a>
+      <a href="About.html" class="menu-btn"> About</a>
+    </div>
+    <i class="fa-solid fa-bars" onclick="myFunction()"></i>
+    </nav>
+    <div class="container">
+      <div class="subcontainer">
+        <div class="img-section1">
+          <img src="img2.png" alt="" srcset="" id="img" />
+        </div>
+        <div class="section1">
+          <button id="btn1">View</button>
+        </div>
+      </div>
+      <div class="subcontainer" id="part2">
+        <div class="img-section1">
+          <img src="img2.png" alt="" srcset="" id="img" />
+        </div>
+        <div class="section1">
+          <button id="btn1">View</button>
+        </div>
+      </div>
+         
+    </div>
+  </body>
+  <script>
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "nav_bar1") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav_bar1";
+  }
+}
+ </script>
+</html>
