@@ -76,9 +76,7 @@ body {
   text-decoration: none;
   margin: 2rem;
 }
-.nav_bar a:hover {
-  color: rgb(114, 182, 221);
-}
+
 .container {
   display: grid;
   align-items: center;
